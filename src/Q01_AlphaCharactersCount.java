@@ -58,7 +58,7 @@ public class Q01_AlphaCharactersCount {
 	$: Metnin sonunu temsil eder
 	(Yani 'abc$' örneğin "abc" ile biten dizeleri eşleştirir).
  */
-
+        System.out.println("sema");
 
     }
 
