@@ -7,6 +7,15 @@ public class Q39_UseContinue {
          */
 
     public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("bir metin girin: ");
+        String str=scan.nextLine();//javaCAN'a selam
+        for (int i = 0; i <str.length() ; i++) {
+            if(str.charAt(i)==' '||str.charAt(i)=='a'){//girilen str herbir tekrarin " " veya a olma sartı
+                continue;//if true ise loop step action almadan sonraki stebe gecer
+            }else System.out.println(str.charAt(i));
+
+        }
 
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Q41_IFElse {
 		/* Task->
         Write a method which prints out the numbers from 1 to 30 but for numbers which are a multiple of 3,
@@ -9,7 +11,22 @@ public class Q41_IFElse {
 		 */
 
     public static void main(String[] args) {
+        degisiklik();
 
+
+    }
+
+    private static void degisiklik() {
+        for (int i = 1; i <= 30; i++) {
+            if (i % 15 == 0) {
+                System.out.println("RockStar");
+            } else if (i % 3 == 0) {
+                System.out.println("rock ");
+            } else if (i % 5 == 0) {
+                System.out.println("star");
+
+            }else System.out.print(i + " ");
+        }
 
     }
 }
